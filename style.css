@@ -1,0 +1,31 @@
+a {
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+
+    align-items: center;
+}
+
+#container div {
+    width: 40%;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 20px;
+
+}
+
+#container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
